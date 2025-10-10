@@ -14,7 +14,7 @@ visitaDFS(Node r) {
   }
 }
 // Complessità lineare
-
+```
 
 ## Versione ricorsiva
 ```cpp
@@ -25,3 +25,4 @@ visitDFS_rec(Node r){
     visitaDFS_rec(r.right)
   }
 }
+```

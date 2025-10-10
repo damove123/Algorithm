@@ -1,4 +1,4 @@
-## DFS – Visita in profondità
+# DFS – Visita in profondità
 
 ```cpp
 visitaDFS(Node r) {
@@ -16,7 +16,7 @@ visitaDFS(Node r) {
 // Complessità lineare
 ```
 
-## Versione ricorsiva
+### Versione ricorsiva
 ```cpp
 visitDFS_rec(Node r){
   if(r!=NIL){
@@ -26,3 +26,21 @@ visitDFS_rec(Node r){
   }
 }
 ```
+
+# BFS - Visita in ampiezza
+
+```cpp
+visitaBFS(Node r){
+  Queue C
+  C  = newQueue()
+  enqueue(C, r)
+  while(!queueEmpty(C)){
+    u = dequeue(C)
+    if (u != NIL){
+      visita il nodo u
+      enqueue(C, u.left)
+      enqueue(C, u.right)
+    }
+  }
+}
+

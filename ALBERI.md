@@ -1,5 +1,5 @@
 DFS - Visità in profondità 
-'''text
+'''cpp
   visitaDFS(Node r) 
     Stack s
     push(S, r)

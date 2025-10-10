@@ -14,3 +14,14 @@ visitaDFS(Node r) {
   }
 }
 // Complessità lineare
+
+
+## Versione ricorsiva
+```cpp
+visitDFS_rec(Node r){
+  if(r!=NIL){
+    //visita il nodo r
+    visitaDFS_rec(r.left)
+    visitaDFS_rec(r.right)
+  }
+}

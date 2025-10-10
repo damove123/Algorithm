@@ -13,3 +13,4 @@ visitaDFS(Node r) {
     }
   }
 }
+// Complessità lineare
